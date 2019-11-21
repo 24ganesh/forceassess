@@ -1,0 +1,26 @@
+uuid: e61e5e16-e14f-4ff6-8a24-6b1348bee565
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_s
+    - node.type.product
+  module:
+    - datetime_range
+id: node.product.field_s
+field_name: field_s
+entity_type: node
+bundle: product
+label: 'Start Date'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+    default_end_date_type: now
+    default_end_date: now
+default_value_callback: ''
+settings: {  }
+field_type: daterange

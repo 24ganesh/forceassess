@@ -1,0 +1,25 @@
+uuid: 2f65ef35-0063-45dd-b262-9516b68b1e65
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2e69a20e-770b-4c00-a305-0a31fc73ece0'
+  module:
+    - block_content
+  theme:
+    - foreassess
+id: higanesh
+theme: foreassess
+region: main_header
+weight: -7
+provider: null
+plugin: 'block_content:2e69a20e-770b-4c00-a305-0a31fc73ece0'
+settings:
+  id: 'block_content:2e69a20e-770b-4c00-a305-0a31fc73ece0'
+  label: 'Hi Ganesh'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

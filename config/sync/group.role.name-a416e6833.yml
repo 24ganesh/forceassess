@@ -1,0 +1,17 @@
+uuid: b86c5d8b-ce20-447e-97a9-fadb646d0b52
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.name
+  enforced:
+    config:
+      - user.role.administrator
+id: name-a416e6833
+label: Administrator
+weight: 2
+internal: true
+audience: outsider
+group_type: name
+permissions_ui: false
+permissions: {  }

@@ -1,0 +1,22 @@
+uuid: 80988276-1ea0-44a6-bddf-bdba25bf0735
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - foreassess
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: foreassess_messages
+theme: foreassess
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

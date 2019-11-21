@@ -1,0 +1,15 @@
+module_hero.content:
+  path: '/herolist'
+  defaults:
+    _controller: '\Drupal\module_hero\Controller\HeroController::content'
+    _title: 'Our Hero'
+  requirements:
+    _permission: 'access content'
+
+module_hero.form:
+  path: '/Add-hero'
+  defaults:
+    _form: '\Drupal\module_hero\Form\AddHeroForm'
+    _title: 'Add Hero'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,22 @@
+uuid: a671d678-e8d1-4dbc-a59d-842121f2c342
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - foreassess
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: foreassess_content
+theme: foreassess
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,24 @@
+uuid: a60244cd-b93a-4b2b-96f3-6cdd3427e69b
+langcode: en
+status: true
+dependencies:
+  module:
+    - group
+  theme:
+    - foreassess
+_core:
+  default_config_hash: MjMChFykEa-4UxdnGstVk1FcXqwUF3p_GBJLIFT3_XI
+id: foreassess_group_operations
+theme: foreassess
+region: sidebar_first
+weight: -20
+provider: null
+plugin: group_operations
+settings:
+  id: group_operations
+  label: 'Group operations'
+  provider: group
+  label_display: visible
+  context_mapping:
+    group: '@group.group_route_context:group'
+visibility: {  }

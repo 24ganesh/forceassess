@@ -1,0 +1,5 @@
+name: "Module Hero"
+description: "This is custom module for displaying hero lists"
+type: module
+core: 8.x
+package: Cutome

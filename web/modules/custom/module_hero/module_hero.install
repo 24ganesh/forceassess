@@ -1,0 +1,49 @@
+<?php
+
+/**
+* hook_schema
+* generate custom custome table
+*/
+function module_hero_schema() {
+  $schema['hero_personal_data'] = array(
+    'description' => 'here we store hero personal data',
+    'fields' => array(
+      'hid' => array(
+        'type' => 'serial',
+        'not null' => TRUE,
+      ),
+      'uid' => array(
+        'type' => 'int',
+        'not null' => FALSE,
+        'length' => 10,
+      ),
+      'first_name' => array(
+        'type' => 'varchar',
+        'not null' => FALSE,
+        'length' => 255,
+      ),
+      'last_name' => array(
+        'type' => 'varchar',
+        'not null' => FALSE,
+        'length' => 255,
+      ),
+      'age' => array(
+        'type' => 'int',
+        'not null' => FALSE,
+        'length' => 10,
+      ),
+      'personal_details' => array(
+        'type' => 'varchar',
+        'not null' => FALSE,
+        'length' => 255,
+      ),
+      'movie_list' => array(
+        'type' => 'varchar',
+        'not null' => FALSE,
+        'length' => 255,
+      ),
+    ),
+    'primary key' => array('hid'),
+  );
+  return $schema;
+}
